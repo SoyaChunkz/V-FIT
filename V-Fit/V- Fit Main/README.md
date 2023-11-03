@@ -30,7 +30,7 @@ Functionalities Supported :
 
 Technology Used :-
 
-Front End - HTML, CSS, JAVASCRIPT, BOOTSTRAP, TAILWIND CSS
+Front End - HTML, CSS, JAVASCRIPT, BOOTSTRAP, TAILWIND CSS, REACT
  
 Back End - Node js, Express, HBS
 
@@ -38,7 +38,7 @@ Database - MySQL
 
 
 
-![image](https://user-images.githubusercontent.com/29221347/165028818-9072274b-80a1-4c6b-aa4c-87898a6c8dc3.png)
+
 
 
 Team members :
