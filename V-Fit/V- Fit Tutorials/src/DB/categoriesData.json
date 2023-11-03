@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "categoryName": "Strength training",
+    "description": "Strength training exercises help to build muscle and strength. Some popular strength training exercises include lifting weights, using resistance bands, and doing bodyweight exercises.",
+    "image": "https://images.pexels.com/photos/8544788/pexels-photo-8544788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 2,
+    "categoryName": "Yoga",
+    "description": " Yoga is a great way to improve your flexibility, strength, and balance. It can also help to reduce stress and improve your mental health.",
+    "image": "https://images.pexels.com/photos/6599020/pexels-photo-6599020.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 3,
+    "categoryName": "Cardio",
+    "description": "Cardio exercises are great for improving your cardiovascular health and endurance. Some popular cardio exercises include running, swimming, biking, and dancing.",
+    "image": "https://images.pexels.com/photos/6455851/pexels-photo-6455851.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 4,
+    "categoryName": "Pilates",
+    "description": "Pilates is a low-impact exercise that focuses on core strength and flexibility. It can help to improve your posture, reduce back pain, and improve your overall fitness.",
+    "image": "https://images.pexels.com/photos/6740055/pexels-photo-6740055.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 5,
+    "categoryName": "Push,Pull,Legs(PPL)",
+    "description": "Push Pull Legs is a workout split specifically designed to Isolate and Train each muscle group 2 times a week.It consists of 3 days, Push in which Chest Shoulder and Triceps are trained, Pull in which Back Bicep and Rear Deltoids are Trained and Legs in which Quadriceps, Hamstrings and Glutes are Trained.",
+    "image": "https://qph.cf2.quoracdn.net/main-qimg-452e2ebf9535815126b63a5ee0f5c84a-lq"
+  },
+  {
+    "id": 6,
+    "categoryName": "Upper Body Lower Body",
+    "description": "An upper body-lower body workout split divides exercises into two main categories. The upper body category focuses on chest, shoulders, back, and arm muscles, including exercises like bench presses and pull-ups. The lower body category targets muscles like the quadriceps, hamstrings, and glutes with movements such as squats and lunges, providing a streamlined approach to strength training.",
+    "image": "https://i.pinimg.com/1200x/79/63/89/79638923dcf0f61ca5c64e34ed39501d.jpg"
+  },
+  {
+    "id": 7,
+    "categoryName": "BRO Split",
+    "description": "A bro split is a workout routine that dedicates each workout day to a specific muscle group.You have Chest Day,Back day, Shoulder day, Leg Day, Arms Day. This training approach typically emphasizes isolation exercises for individual muscle groups, allowing for intense focus and muscle targeting.",
+    "image":"https://www.inspireusafoundation.org/wp-content/uploads/2023/01/example-bro-split.png"
+  },
+  {
+    "id": 8,
+    "categoryName": "Arnold split",
+    "description": "The Arnold split, also known as the 'Arnold Schwarzenegger split', is a workout routine that organizes exercises into six days, targeting various muscle groups. This split divides training as follows: chest and back, shoulders and arms, legs, with each pair repeated twice a week. .",
+    "image": "https://fitnessvolt.com/wp-content/uploads/2021/11/arnold-front-double-bicep.jpg"
+  }
+]

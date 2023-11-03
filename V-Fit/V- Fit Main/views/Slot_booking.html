@@ -1,0 +1,76 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Slot Booking</title>
+
+    <style>
+      .yuiiy{
+        margin-top: 130px;
+
+      }
+      .sel1{
+        margin-left: 50px;
+        margin-top: 80px;
+      }
+ 
+    </style>
+  </head>
+  <body>
+    <header class="text-gray-600 body-font">
+        <div class="container1 mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-red-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">V - Fit</span>
+          </a> 
+        </div>
+      </header>
+      <div class="container px-5 py-24 mx-auto">
+        <div class="text-center mb-20">
+          <h1 class="sm:text-3xl text-2xl font-large title-font text-gray-1600 mb-2">Pick a time and place</h1>
+          <div class="flex mt-6 justify-center">
+            <div class="w-16 h-1 rounded-full bg-red-500 inline-flex"></div>
+          </div>
+   <!-- <form action="/slot" method="post">  -->
+      <form action="/slot" method="post" id="form1">
+        <select class="sel1" name="address" width=300 
+                style="width: 350px" id="address">
+          <option value='Rajpath Nagar'>Rajpath Nagar</option>
+          <option value='Gandhi Road'>Gandhi Road</option>
+          <option value='Dilbagh Gardens'>Dilbagh Gardens</option>
+          <option value='' selected>Select the address</option>
+        </select>
+      <!-- </form> -->
+
+      <!-- <form action="/slot" method="post" id="form1"> -->
+        <select class="sel1" name="time" width=300 
+                style="width: 350px" id="time">
+          <option value='1'>7:00-8:00</option>
+          <option value='2'>8:00-9:00</option>
+          <option value='3'>9:00-10:00</option>
+          <option value='4'>11:00-12:00</option>
+          <option value='5'>16:00-17:00</option>
+          <option value='6'>17:00-18:00</option>
+          <option value='7'>18:00-19:00</option>
+          <option value='8'>19:00-20:00</option>
+          <option value='9'>20:00-21:00</option>
+          <option value='' selected>Select the time</option>
+        </select>
+
+        <div class="yuiiy">
+          <button type="submit" class="flex mx-auto mt-20 text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg">Confirm </button>
+          </div>  
+        </form>
+   
+
+
+	<script src="/public/index.js">
+  </script>
+  </body>
+</html>

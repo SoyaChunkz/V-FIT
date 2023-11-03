@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> DashboardUser </title>
+    <link rel="stylesheet" href="C:/Users/tykwo/Documents/Fitness-Centre-main/public/Dashboard_css.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="/styles_dash.css">
+   </head>
+ 
+<body>
+  
+  <div class="sidebar">
+    <div class="logo-details">
+      {{!-- <i class='bx bxl-c-plus-plus'></i> --}}
+      
+      <span class="logo_name"><a class="text-xl text-white" href="/">V - Fit</a></span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="/profiled">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="/slotd">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">Slot details</span>
+          </a>
+        </li>
+        <li>
+          <a href="/budye">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">Gym Buddy</span>
+          </a>
+        </li>
+         <li>
+          <a href="/pland">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">Gym Plan</span>
+          </a>
+        </li>
+        <li>
+          <a href="/cp1">
+            <i class='bx bx-coin-stack' ></i>
+            <span class="links_name">Community page</span>
+          </a>
+        </li>
+        
+    
+        <li class="log_out">
+          <a href="/logout">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+    
+      <!-- <div class="profile-details">
+        <img src="images/profile.jpg" alt="">
+        <span class="admin_name">Prem Shahi</span>
+        <i class='bx bx-chevron-down' ></i>
+      </div> -->
+    </nav>
+    <div class="mainContent">
+    <!-- <div class="boxy1"> -->
+    <div class="summary-column">
+      <div class="profile-img" id="profileImage"><img src="https://i.pinimg.com/236x/65/25/a0/6525a08f1df98a2e3a545fe2ace4be47.jpg" width="42" height="42" />
+          <div class="name">{{#if message5}}
+
+            {{message5}} 
+           
+            {{/if}}</div>
+      </div>
+      <div class="statistics">
+          <h2>summary</h2>
+          <div class="age"><span class="title title-age">  {{#if message3}}
+
+            {{message3}} 
+           
+            {{/if}}</span></div>
+          <div class="weight"><span class="title title-weight"> 
+            {{#if message1}}
+
+            {{message1}} kg
+           
+            {{/if}}
+    </span></div>
+          <div class="float-none"></div>
+          <div class="height">
+              <div class="icon"></div>
+              <div class="data"><span>  {{#if message2}}
+
+            {{message2}} cm
+           
+            {{/if}}</span></div>
+          </div>
+          <div class="bmi"><span class="title title-bmi">{{#if message4}}
+
+            {{message4}} 
+           
+            {{/if}}</span></div>
+          <div class="fat"><span class="title title-fat tytyyt">11<span class="percentage">%</span></span></div>
+          <div class="float-none"></div>
+          <h2 class="allergies">allergies</h2>
+          <div class="row">peanuts<div class="severity">
+                  <div class="fill" style="width: 45%; height: inherit;"></div>
+              </div>
+          </div>
+          <div class="row">penicilin<div class="severity">
+                  <div class="fill" style="width: 80%; height: inherit;"></div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- </div> -->
+  <div class="boxy2">
+    <div class="home-content">
+      
+      <div class="kiloop">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic"><h1 class="jko">Slot Details</h1></div>
+            <!-- <div class="number">$12,876</div> -->
+            <div class="indicator">
+              
+              <span class="text1">{{#if message6}}
+
+            {{message6}} 
+           
+            {{/if}}</span>
+            </div>
+              <div class="indicator">
+              
+              <span class="text2">{{#if message7}}
+
+            {{message7}} 
+           
+            {{/if}}</span>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+          <div class="kiloop">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic1"><h1 class="jko">Buddy Details</h1></div>
+           
+            <div class="indicator">
+              
+              <span class="text1">{{#if message8}}
+
+            {{message9}} 
+           
+            
+            {{else}}
+            {{message10}} 
+           {{/if}}
+            </span>
+            </div>
+              <div class="indicator">
+              
+              <span class="text2">{{#if message8}}
+
+            {{message8}} 
+           
+            {{/if}}</span>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+
+
+    </div>
+    </div>
+    </div>
+
+     
+  </section>
+
+  <script>
+   let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".sidebarBtn");
+sidebarBtn.onclick = function() {
+  sidebar.classList.toggle("active");
+  if(sidebar.classList.contains("active")){
+  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+}else
+  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+}
+ </script>
+
+</body>
+</html>

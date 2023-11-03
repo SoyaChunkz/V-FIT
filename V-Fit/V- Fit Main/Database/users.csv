@@ -1,0 +1,12 @@
+id,name,email,password,weight,height,age,BMI,Address,Time,BuddyID,Plan
+139,Hirtik Shaukeen,hirtiksha@gmail.com,hirtik,80,175,34,26.1,Rajpath Nagar,2,140,
+140,Riddhi Sharma,riddhi@gmail.com,riddhi,81,143,31,39.6,Rajpath Nagar,2,139,special
+141,Mokshit Jadeja,Mj@gmail.com,mj,74,150,33,32.9,Gandhi Road,3,148,pro
+142,Jubil Irani,jubiliran@gmail.com,ji,63,153,24,26.9,Rajpath Nagar,5,NULL,pro
+143,Chandan Prakash,chandan@gmail.com,cp,60,150,43,26.7,Rajpath Nagar,5,NULL,amatuer
+145,Logy Singh,logy@singh,logy,109,184,42,32.2,Dilbagh Gardens,4,151,amatuer
+146,Venkatesh Srinivasan,venkatesh@srinivasan,vs,63,147,27,29.2,Dilbagh Gardens,4,NULL,pro
+148,Sarvaswa Mohanty,sarvaswa@mohanty,sm,90,171,44,30.8,Gandhi Road,3,141,special
+149,Jaideep Sahini,jaideep@sahini,js,89,189,15,24.9,Gandhi Road,5,NULL,start
+150,Sai Sandeep,sai@sandeep,ss,102,146,44,47.9,Dilbagh Gardens,6,NULL,special
+151,Nikhil Raj,nikhil@raj,nr,83,160,36,32.4,Dilbagh Gardens,4,145,special
